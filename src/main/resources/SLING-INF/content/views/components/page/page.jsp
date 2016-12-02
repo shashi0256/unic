@@ -33,6 +33,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
     <sling:include path="major" resourceType="neba-sample/components/major" />
 
+    <sling:include path="productSummary" resourceType="neba-sample/components/productSummary" />
+
     <div class="box alt container">
         <sling:getResource base="${resource}" path="sections" var="sections" />
         <sling:listChildren resource="${sections}" var="sectionList" />

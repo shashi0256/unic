@@ -13,6 +13,16 @@
     "sling:resourceType": "neba-sample/components/major",
     "text":"We conduct experiments that may or may not seriously break the universe"
   },
+  "productSummary": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "neba-sample/components/productSummary",
+    "heroAlt":"Product summary hero alt text",
+    "heroImage": {
+      "jcr:primaryType": "nt:unstructured",
+      "sling:resourceType": "neba-sample/components/image",
+      "alt":"Original image alt text"
+    }
+  },
   "sections": {
     "section": {
       "title": "The First Thing",
