@@ -7,15 +7,11 @@ import io.neba.api.resourcemodels.Optional;
 @ResourceModel(types = "neba-sample/components/image")
 public class Image {
     @Path("..")
-    private Optional<ProductSummary> summary;
+    private Optional<ImageProperties> overloadedProperties;
 
     private String alt;
 
     public String getAlt() {
-        return alt;
-    }
-
-    public void setAlt(String alt) {
-        this.alt = alt;
+        return overloadedProperties.isPresent() ? overloadedProperties.get().getAlt() : alt;
     }
 }
