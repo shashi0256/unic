@@ -1,8 +1,5 @@
 package to.adapt.neba.api.contact;
 
-import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.NotBlank;
-
 import java.io.Serializable;
 
 /**
@@ -12,13 +9,10 @@ import java.io.Serializable;
  * @author Olaf Otto
  */
 public class Contact implements Serializable {
-    @NotBlank
     private String name;
 
-    @Email @NotBlank
     private String email;
 
-    @NotBlank
     private String message;
 
     public String getName() {

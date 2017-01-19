@@ -43,15 +43,6 @@
     "sling:resourceType": "neba-sample/components/major",
     "text":"Questions or comments?"
   },
-  "contact": {
-    "sling:resourceType": "neba-sample/components/contact",
-    "text": "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.",
-    "requests": {
-      "inbox": {
-        "sling:resourceType": "neba-sample/components/inbox"
-      }
-    }
-  },
   "login": {
     "sling:resourceType": "neba-sample/components/login"
   },
