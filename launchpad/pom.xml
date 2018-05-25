@@ -21,7 +21,7 @@
                     <!-- Start command: mvn slingstart:start -->
                     <servers>
                         <server>
-                            <port>8080</port>
+                            <port>8081</port>
                         </server>
                     </servers>
                 </configuration>
